@@ -6,55 +6,15 @@
 
 > Fact: No, it may not. At least in most browsers. Overwritten domain affects nothing from now on. Google Chrome, Mozilla Firefox, and Opera were checked
 
-<body>
-    <style>
-        body, html {
-            margin: 0;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-        .container {
-            display: flex;
-            width: 100%;
-        }
-        .container img {
-            max-width: 100%;
-            height: auto;
-        }
-        .left {
-            flex: 1;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding-left: 10px;
-        }
-        .right {
-            flex: 1;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            padding-right: 10px;
-        }
-    </style>
-    <div class="container">
-        <div class="left">
-            <img src="assets/chrome-try-steal.png">
-        </div>
-        <div class="right">
-            <img src="assets/chrome-try-steal-impersonate.png">
-        </div>
-    </div>
-    <div class="container">
-        <div class="left">
-            <img src="assets/firefox-try-steal.png">
-        </div>
-        <div class="right">
-            <img src="assets/firefox-try-steal-impersonate.png">
-        </div>
-    </div>
-</body>
-</html>
+<div align="center">
+    <img src="assets/chrome-try-steal.png" width="500" />
+    <img src="assets/chrome-try-steal-impersonate.png" width="500" />
+</div>
+
+<div align="center">
+    <img src="assets/firefox-try-steal.png" width="500" />
+    <img src="assets/firefox-try-steal-impersonate.png" width="500" />
+</div>
 
 # Sources
 
