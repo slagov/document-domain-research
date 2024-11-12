@@ -1,4 +1,4 @@
-# Can `document.domain` still be used to bypass SOP within same-site cross-origin requests?
+# Can `document.domain` still be used to bypass SOP within same-site cross-origin non-preflighted requests?
 
 `document.domain` allows to overwrite document's domain by any of its superdomains
 
