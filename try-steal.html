@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay</title>
+    <h1 id="originalDomain"></h1>
+    <h1 id="currentDomain"></h1>
+    <script>
+        document.getElementById("originalDomain").textContent = document.domain
+        document.getElementById("currentDomain").textContent = document.domain
+
+        function makeRequest() {
+            fetch('http://victim-test.ru')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Сетевая ошибка: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    alert(JSON.stringify(data, null, 2));
+                })
+                .catch(error => {
+                    alert('Ошибка: ' + error.message);
+                });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="makeRequest()">Отправить запрос</button>
+</body>
+</html>
