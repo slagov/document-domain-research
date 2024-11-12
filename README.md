@@ -6,7 +6,7 @@
 
 > Fact: No, it may not. At least in most browsers. Overwritten domain affects nothing from now on. Google Chrome, Mozilla Firefox, and Opera were checked
 
-<head>
+<body>
     <style>
         body, html {
             margin: 0;
@@ -37,8 +37,6 @@
             padding-right: 10px;
         }
     </style>
-</head>
-<body>
     <div class="container">
         <div class="left">
             <img src="assets/chrome-try-steal.png">
