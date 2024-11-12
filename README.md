@@ -7,13 +7,13 @@
 > Fact: No, it may not. At least in most browsers. Overwritten domain affects nothing from now on. Google Chrome, Mozilla Firefox, and Opera were checked
 
 <div align="center">
-    <img src="assets/chrome-try-steal.png" width="500" />
-    <img src="assets/chrome-try-steal-impersonate.png" width="500" />
+    <img src="assets/chrome-try-steal.png" width="250" />
+    <img src="assets/chrome-try-steal-impersonate.png" width="250" />
 </div>
 
 <div align="center">
-    <img src="assets/firefox-try-steal.png" width="500" />
-    <img src="assets/firefox-try-steal-impersonate.png" width="500" />
+    <img src="assets/firefox-try-steal.png" width="250" />
+    <img src="assets/firefox-try-steal-impersonate.png" width="250" />
 </div>
 
 # Sources
